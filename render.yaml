@@ -1,0 +1,11 @@
+# Render Blueprint (https://render.com) — deploy via "New > Blueprint"
+# Connect this GitHub repo and Render auto-creates the web service below.
+services:
+  - type: web
+    name: funnel-cohort-analytics
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run dashboard/app.py --server.port $PORT --server.address 0.0.0.0
+    autoDeploy: true
+    healthCheckPath: /_stcore/health

@@ -1,0 +1,4 @@
+device,view,add_to_cart,checkout,purchase,view_to_cart_%,cart_to_checkout_%,checkout_to_purchase_%,overall_view_to_purchase_%
+Desktop,3808,1151,602,428,30.2,52.3,71.1,11.24
+Mobile App,16166,5118,2636,1919,31.7,51.5,72.8,11.87
+Mobile Web,5828,1885,957,682,32.3,50.8,71.3,11.7

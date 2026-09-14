@@ -1,0 +1,11 @@
+# Streamlit configuration for cloud deployments
+[server]
+# No browser auto-open; required on all cloud hosts (Render, HF Spaces, etc.)
+headless = true
+
+[browser]
+# Don't phone home with usage stats on shared hosting
+gatherUsageStats = false
+
+[theme]
+base = "light"
